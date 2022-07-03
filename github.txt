@@ -1,0 +1,20 @@
+github 
+
+1.make ( 이전에 환경설정 하는것들은 별로 따로 할 필요도 있음
+SSH키를 만들어서 연결한다거나)
+1.git 섫치
+2.git --config username
+  git --config email
+
+3.guthub 레포지토리 생성
+4.프로젝트 폴더에 가서
+  git init
+  git add . 또는 git add 파일명
+  git staus : 지금 작업 상태
+  git commot -m '코맨트'
+  git remote add origin https://github.com/wooGuk/MyReactProject.git
+  git push origin master    
+
+
+ 사용자가 들어올떄
+ git clone utl
