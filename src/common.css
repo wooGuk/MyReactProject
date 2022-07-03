@@ -1,0 +1,74 @@
+.loan_item {
+    padding: 1rem;
+    display: flex;
+    align-items: center; /* 세로 가운데 정렬 */
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans CJK KR','Sans-Serif';
+    font-weight: 300;
+    color: #666;
+    background: #fff;
+    overflow-y: scroll;
+    width: 100vw;
+    height: 100vh;
+    line-height: 1.1;
+  }
+  .loan_item .each {
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+  }
+  .loan-item:hover {
+    background: #e3fafc;
+  }
+  
+  /* todo-item 에 마우스가 있을때만 .remove 보이기 */
+  .loan-item:hover .remove {
+    opacity: 1;
+  }
+  
+  /* todo-item 사이에 윗 테두리 */
+  .loan-item + .loan-item {
+    border-top: 1px solid #f1f3f5;
+  }
+  
+  .accordion_btn{
+    display: block;
+    position: relative;
+    padding: 2.1rem 4rem 2.1rem 2.4rem;
+    color: #151515;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  
+  .remove {
+    margin-right: 1rem;
+    color: #e64980;
+    font-weight: 600;
+    opacity: 0;
+  }
+  
+  .loan-text {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black;
+    background: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+    flex: 1; /* 체크, 엑스를 제외한 공간 다 채우기 */
+    word-break: break-all;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+    color: #adb5bd;
+  }
+  
+  .check-mark {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+    color: #3bc9db;
+    font-weight: 800;
+  }
