@@ -18,3 +18,6 @@ SSH키를 만들어서 연결한다거나)
 
  사용자가 들어올떄
  git clone utl
+
+ 사용자별 공간 파기
+ git checkout -b wooGuk  
